@@ -48,24 +48,14 @@ AI-CAD Tool ist eine Desktop-Anwendung, die natürliche Sprache in druckfertige 
 
 ### Installation
 
-```bash
-# Repository klonen
-git clone https://github.com/Graf-d/ai-cad-tool.git
-cd ai-cad-tool
-
-# Abhängigkeiten installieren
-pip install anthropic Pillow
-
-# Tool starten
-python ai_cad_tool.py
-```
-
+Download 
+AI-CAD-Tool-Setup.exe
 ### Beim ersten Start
 
 1. **API Key** eingeben und auf 💾 klicken (wird lokal gespeichert)
 2. **Prompt** eingeben, z.B.:
    - *"Raspberry Pi 5 Gehäuse 100x75x40mm, 2mm Wandstärke, abgerundete Kanten"*
-   - *"Lüftungsgitter für 200mm PC-Lüfter mit Logo VASTL in der Mitte"*
+   - *"Lüftungsgitter für 200mm PC-Lüfter mit Logo GRAF in der Mitte"*
    - *"L-Halterung für 20mm Rohr, 3mm Stärke, 4 Schraubenlöcher"*
 3. **⚡ Generieren** klicken
 4. 3D-Viewer öffnet sich automatisch im Browser
@@ -79,7 +69,7 @@ Raspberry Pi 5 Gehäuse: 100mm breit, 75mm tief, 40mm hoch,
 2mm Wandstärke, abgerundete Kanten 3mm, Deckel abnehmbar
 
 Lüftungsgitter 200mm PC-Lüfter: korrekte Schraubenabstände M4,
-konzentrisches Gittermuster, Schriftzug "VASTL" in der Mitte
+konzentrisches Gittermuster, Schriftzug "GRAF" in der Mitte
 
 Zahnrad: 12 Zähne, Außendurchmesser 50mm, Breite 8mm, Bohrung 8mm
 
@@ -108,35 +98,6 @@ STL-Export → Slicer → 3D-Drucker
 
 **Warum OpenSCAD statt CadQuery/FreeCAD?**
 OpenSCAD ist eine schlanke, scriptbasierte CAD-Engine (~50 MB) die sich perfekt für KI-generierte parametrische Modelle eignet. Schwere Alternativen (CadQuery + OpenCASCADE) wären >1.5 GB und schwer zu verteilen.
-
----
-
-## 📁 Projektstruktur
-
-```
-ai-cad-tool/
-├── ai_cad_tool.py          # Haupt-Anwendung
-├── build_installer.bat     # Windows EXE Builder
-├── ai_cad_setup.iss        # Inno Setup Installer-Skript
-├── requirements.txt        # Python-Abhängigkeiten
-├── README.md               # Diese Datei
-├── LICENSE                 # MIT Lizenz
-└── .gitignore
-```
-
----
-
-## 🔧 Für Entwickler
-
-### Windows EXE erstellen
-
-1. [OpenSCAD portable ZIP](https://openscad.org/downloads.html) in den Projektordner legen
-2. [Inno Setup](https://jrsoftware.org/isdl.php) installieren
-3. Build starten:
-   ```
-   .\build_installer.bat
-   ```
-4. Installer liegt unter `Output\AI-CAD-Tool-Setup.exe`
 
 ### Abhängigkeiten
 
