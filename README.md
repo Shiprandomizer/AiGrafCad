@@ -50,6 +50,8 @@ AI-CAD Tool ist eine Desktop-Anwendung, die natürliche Sprache in druckfertige 
 
 Download 
 AI-CAD-Tool-Setup.exe
+[https://github.com/Shiprandomizer/AiGrafCad/releases/latest)
+
 ### Beim ersten Start
 
 1. **API Key** eingeben und auf 💾 klicken (wird lokal gespeichert)
