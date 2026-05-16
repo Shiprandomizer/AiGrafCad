@@ -50,6 +50,9 @@ Download
 AI-CAD-Tool-Setup.exe
 [https://github.com/Shiprandomizer/AiGrafCad/releases/latest)
 
+Windows zeigt eine Sicherheitswarnung → Normal bei neuer Software!
+Lösung: "Weitere Informationen" klicken → "Trotzdem ausführen"
+
 ### Beim ersten Start
 
 1. **API Key** eingeben und auf 💾 klicken (wird lokal gespeichert)
