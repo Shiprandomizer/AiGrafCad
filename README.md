@@ -42,8 +42,6 @@ AI-CAD Tool ist eine Desktop-Anwendung, die natürliche Sprache in druckfertige 
 
 ### Voraussetzungen
 
-- Python 3.9 oder neuer → [python.org/downloads](https://www.python.org/downloads/)
-- OpenSCAD → [openscad.org/downloads](https://openscad.org/downloads.html)
 - Anthropic API Key (kostenlos) → [console.anthropic.com](https://console.anthropic.com/settings/keys)
 
 ### Installation
