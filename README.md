@@ -28,7 +28,7 @@ AI-CAD Tool ist eine Desktop-Anwendung, die natürliche Sprache in druckfertige 
 | 💾 **STL-Export** | Direkt in Slicer (Cura, PrusaSlicer) laden |
 | 🔒 **Lokaler API-Key** | Key wird nur lokal gespeichert, nie übertragen |
 | 🖥️ **Dark UI** | Modernes dunkles Interface |
-| 📦 **Leichtgewichtig** | Nur ~50 MB (ohne schwere CAD-Bibliotheken) |
+| 📦 **Leichtgewichtig** | Nur ~112 MB (ohne schwere CAD-Bibliotheken) |
 
 ---
 
